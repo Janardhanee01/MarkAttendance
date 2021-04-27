@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1,2,3,4,5"
+    android:weightSum="10">
+
+    <TableRow>
+        <TextView
+            android:text="S.No"
+            android:id="@+id/sno"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:text="Name"
+            android:id="@+id/name"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="5"/>
+        <TextView
+            android:text="Year"
+            android:id="@+id/yr"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="2"/>
+        <TextView
+            android:text="Dept"
+            android:id="@+id/dept"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="1"/>
+
+        <CheckBox android:id="@+id/mark"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="1"/>
+    </TableRow>
+
+</TableLayout>
